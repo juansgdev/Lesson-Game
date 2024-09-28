@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Laila;
+    font-size: 32px;
+    background: #383d4d;
+    color: white;
 }
+
+button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 6px;
+    background: #acadaf;
+    color: rgb(34, 34, 34);
+}
+
+
+
 
 .game-dashboard {
     display: flex;
@@ -10,6 +27,7 @@
 }
 
 #scene {
+    /* display: none; */
     margin: 0 auto;
     border: 2px solid blueviolet;
 }

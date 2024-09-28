@@ -6,17 +6,46 @@
     <title>Lesson Game</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='src/styles/global.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='src/styles/dashboard.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='src/styles/nav.css'>
 </head>
 
 <body>
+
+    <header>
+        <nav class="nav-menu">
+            <h1 class="brand-title">Lesson Game</h1>
+
+            <div class="user-menu">
+                <button class="user-button">
+                    <img class="user-image" src="src/assets/user-avatar.png" alt="usuário">
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="dashboard">
+        <div class="game-levels">
+            <div class="level">
+                School
+                <button class="play-button">Play</button>
+            </div>
+            <div class="level">
+                Space
+                <button class="play-button">Play</button>
+            </div>
+            <div class="level">
+                Medieval
+                <button class="play-button">Play</button>
+            </div>
+        </div>
+    </main>
 
     <div class="game-dashboard">
         <canvas id="scene" width="300" height="300">
             Seu navegador não suporta Canvas!
         </canvas>
     </div>
-
-    <button id="button">aa</button>
     
     <script src='src/scripts/main.js'></script>
 </body>
