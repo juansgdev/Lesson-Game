@@ -18,6 +18,11 @@ button {
     color: rgb(34, 34, 34);
 }
 
+input {
+    outline: 0;
+    border: 2px solid #acadaf;
+    border-radius: 6px;
+}
 
 
 

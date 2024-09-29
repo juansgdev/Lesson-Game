@@ -3,50 +3,31 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Lesson Game</title>
+    <title>Crie seu usuário</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='src/styles/global.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='src/styles/dashboard.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='src/styles/nav.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='src/styles/sigin.css'>
 </head>
 
 <body>
 
     <header>
-        <nav class="nav-menu">
-            <h1 class="brand-title">Lesson Game</h1>
-
-            <div class="user-menu">
-                <button class="user-button">
-                    <img class="user-image" src="src/assets/user-avatar.png" alt="usuário">
-                </button>
-            </div>
-        </nav>
+        <h1 class="brand">Lesson Game</h1>
     </header>
-
-    <main class="dashboard">
-        <div class="game-levels">
-            <div class="level">
-                School
-                <button class="play-button">Play</button>
-            </div>
-            <div class="level">
-                Space
-                <button class="play-button">Play</button>
-            </div>
-            <div class="level">
-                Medieval
-                <button class="play-button">Play</button>
-            </div>
-        </div>
-    </main>
-
-    <div class="game-dashboard">
-        <canvas id="scene" width="300" height="300">
-            Seu navegador não suporta Canvas!
-        </canvas>
-    </div>
     
-    <script src='src/scripts/main.js'></script>
+    <form class="form">
+        <label class="form-label" for="username">Crie um usuàrio</label>
+        <input class="form-input" type="text" name="username" id="username">
+
+        <label class="form-label" for="character">Escolha seu avatar</label>
+        <input class="form-input" type="radio" name="character" id="character1" value="boy">
+        <label for="character1">boy</label>
+        <input class="form-input" type="radio" name="character" id="character2" value="girl">
+        <label for="character2">girl</label>
+
+        <button id="submit-button">Confirmar</button>
+    </form>
+
+    <script type="module" src='src/scripts/main.js'></script>
 </body>
 </html>

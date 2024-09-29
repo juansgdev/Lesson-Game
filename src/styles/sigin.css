@@ -1,0 +1,22 @@
+.brand {
+    margin: 0 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding: 12px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #424850;
+    border-radius: 16px;
+}
+
+.form * {
+    background: #424850;
+}
+
+#submit-button {
+    background: #acadaf;
+}
