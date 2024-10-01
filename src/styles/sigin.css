@@ -3,7 +3,7 @@
 }
 
 .form {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 80vw;
     padding: 12px;

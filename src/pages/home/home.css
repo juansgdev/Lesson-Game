@@ -33,6 +33,10 @@
 
 /* DASHBOARD */
 
+.dashboard {
+    display: none;
+}
+
 .game-levels {
     display: flex;
     justify-content: center;

@@ -1,5 +1,9 @@
-import { isValid } from "./validation.js";
-import { formError } from "./handleError.js";
+import { setRoute } from "./src/scripts/route-controller.js";
+import { isValid } from "./src/scripts/validation.js";
+import { formError } from "./src/scripts/handleError.js";
+
+const currentPage = "index";
+setRoute(currentPage);
 
 const button = document.getElementById("submit-button");
 

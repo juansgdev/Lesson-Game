@@ -1,10 +1,15 @@
+import { setRoute } from "../../scripts/route-controller.js";
+
+const currentPage = "home";
+setRoute(currentPage);
+
 (() => {
     const scene = document.getElementById("scene");
     const context = scene.getContext("2d");
     // const button = document.getElementById("button");
 
     const asset = new Image();
-    asset.src = "./src/assets/general_characters.png";
+    asset.src = "../../assets/general_characters.png";
     let recX = 48;
     
     asset.onload = () => {
